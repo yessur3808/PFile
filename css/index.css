@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header#home h1
+{
+	padding-top: 400px;
+	margin: 0;
+	color: #fff;
+	font-family: 'Righteous', cursive;
+}
+
+/* ---------------------------------Section Type----------------------- */
+/* INFORMATION Section */
+#about {
+	padding: 60px 0;
+	height: 65	vh;
+	background: #464646;
+}
+#about h4 {
+	font-weight: 700;
+	font-size: 30px;
+}
+#about h2, h4, p {
+	color:#fff;
+	text-align: center;
+}
+#about p {
+	font-size: 16px;
+}
+.space {
+	margin-top: 40px;
+}
+#about img {
+	width: 120px;
+	height: 120px;
+	text-align: center; 
+	padding:15px;
+}
+
+/* ----- SKILL Section ----*/
+#skill img {
+	width: 140px;
+	height: 140px;
+}
+#skill {
+	padding: 60px 0;
+  	background: #fff;
+}
+#skill p {
+  text-align: left;
+  color: #000000;
+  font-size: 18px;
+}
+#skill h2 {
+  text-align: center;
+  color: #000000;
+  font-weight: 700px;
+  font-size: 30px;
+}
+#skill h3 {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 30px;
+  color: #000000;
+}
+.skill-top {
+	margin-top: 70px;
+}
+
+/* ----- RESUME Section ----*/
+#resume {
+	padding: 60px 0;
+  	background: #000000;
+}
+#resume h2{
+	color:#fff;
+}
+
+/* ----- contact Section ----*/
+#contact {
+	padding: 60px 0;
+  	background: #464646;
+}
+#contact img{
+	height: 90px;
+}	
+
+
+/* ------ Footer ------*/
+#footer {
+	background: #000000;
+	text-align: center;
+}
+#footer p {
+	color: #fff;
+	font-size: 13px;
+	margin-top: 10px;
+}
