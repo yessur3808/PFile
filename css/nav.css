@@ -8,19 +8,23 @@ nav
 	padding: 10px 100px;
 	box-sizing: border-box;
 	transition: .5s;
+	z-index: 100;
 }
 nav .logo
 {
 	float: left;
+	z-index: 100;
 }
 nav .logo img
 {
 	height: 80px;
 	transition: .5s;
+	z-index: 100;
 }
 nav.navblack .logo img
 {
 	height: 45px;
+	z-index: 100;
 }
 nav ul
 {
@@ -28,10 +32,12 @@ nav ul
 	margin: 0;
 	padding: 0;
 	display: flex;
+	z-index: 100;
 }
 nav ul li
 {
 	list-style: none;
+	z-index: 100;
 }
 nav ul li a
 {
@@ -43,18 +49,21 @@ nav ul li a
 	transition: 0.5s;
 	font-size: 14px;
 	font-family: 'Righteous', cursive;
+	z-index: 100;
 }
 nav.navblack ul li a
 {
 	line-height: 40px;
 	color:#fff;
 	font-size: 12px;
+	z-index: 100;
 }
 nav ul li a.active,
 nav ul li a:hover
 {
 	color: #000;
 	background: #fff;
+	z-index: 100;
 }
 header#home
 {
@@ -68,10 +77,12 @@ nav.navblack
 	height: 60px;
 	background: rgba(0,0,0,.8);
 	padding:10px 50px;
+	z-index: 100;
 }
 .responsive-bar 
 {
 	display: none;
+	z-index: 100;
 }
 @media (max-width: 768px)
 {
@@ -86,12 +97,13 @@ nav.navblack
 		left: 0;
 		padding: 5px 20px;
 		box-sizing: border-box;
-		z-index: 1;
+		z-index: 100;
 	}
 	.responsive-bar .logo img
 	{
 		float:left;
 		height: 50px;
+		z-index: 100;
 	}
 	.responsive-bar .menu h4
 	{
@@ -104,12 +116,14 @@ nav.navblack
 		text-transform: uppercase;
 		font-family: 'Righteous', cursive;
 		font-size: 22px;
+		z-index: 100;
 	}
 	nav.navblack
 	{
 		height: 60px;
 		background: #fff);
 		padding: 0;
+		z-index: 100;
 	}
 	nav .logo
 	{
@@ -124,14 +138,17 @@ nav.navblack
 		background: #fff;
 		float: none;
 		display: none;
+		z-index: 100;
 	}
 	nav ul.active
 	{
 		display: block;
+		z-index: 100;
 	}
 	nav ul li
 	{
 		width: 100%;
+		z-index: 100;
 	}
 	nav ul li a
 	{
@@ -141,5 +158,6 @@ nav.navblack
 		text-align: center;
 		line-height: 30px !important;
 		color: #000;
+		z-index: 100;
 	}
 }
