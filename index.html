@@ -5,11 +5,57 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
 		<title>CY Poon | Profile</title>
 		<!-- Bootstrap -->
+		
+		<style type="text/css">
+		.icon-download {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 25px;
+  margin: auto;
+  border: solid 10px #336699;
+  border-top: none;
+}
+.icon-download:before, .icon-download:after {
+  content: '';
+  display: block;
+  position: absolute;
+  animation: icon-bounce .5s infinite alternate;
+}
+.icon-download:before {
+  left: 10px;
+  top: -10px;
+  width: 10px;
+  height: 11px;
+  background: #336699;
+}
+.icon-download:after {
+  left: 5px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent;
+  border-top: solid 10px #336699;
+}
+
+@keyframes icon-bounce {
+  from {
+    transform: translateY(-8px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+		</style>
+		
 		<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/nav.css">
 		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
 	</head>
 	<body>
@@ -119,7 +165,9 @@
 			<div class="container">
 				<h2>RESUME</h2>
 				<br>
-				<a href=""><img src="./assets/img/download.png" style="width: 200px;height: 200px;text-align: center"></a>
+				
+<a href="https://drive.google.com/file/d/19HgPPXL94-GSxmhZvyOz_3CPOi74boow/view?usp=sharing">
+<i class="icon-download"></i></a>
 			</div>
 		</section>
 		<section id="contact" class="text-center">
